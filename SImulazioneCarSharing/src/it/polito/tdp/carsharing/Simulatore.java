@@ -80,7 +80,7 @@ public class Simulatore {
 	private int clientiInsoddisfatti; //numero clienti insoddisfatti
 	
 	public void init(int durataMax) {
-		//inizializza la coda
+		//inizializzo la coda
 		queue.clear();
 		int time = 0;
 		while(time <= durataMax) {
